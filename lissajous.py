@@ -29,6 +29,8 @@ y = np.sin(b * t)
 c = np.cos(a * t)
 fig, ax = plt.subplots()
 ax.plot(x, y, "r-", c, y, "b-")
+# remove axes
+ax.axis("off")
 st.pyplot(fig)
 
 
